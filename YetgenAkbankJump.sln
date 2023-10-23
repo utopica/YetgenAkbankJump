@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YetgenAkbankJump.Domain", "YetgenAkbankJump.Domain\YetgenAkbankJump.Domain.csproj", "{7131D0C0-31B3-423D-8875-3C9859BAF381}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YetgenAkbankJump.WebApi", "YetgenAkbankJump.WebApi\YetgenAkbankJump.WebApi.csproj", "{A40E0B14-01FA-4EF1-ADCD-ED89E1D8B34C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7131D0C0-31B3-423D-8875-3C9859BAF381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7131D0C0-31B3-423D-8875-3C9859BAF381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7131D0C0-31B3-423D-8875-3C9859BAF381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7131D0C0-31B3-423D-8875-3C9859BAF381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A40E0B14-01FA-4EF1-ADCD-ED89E1D8B34C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40E0B14-01FA-4EF1-ADCD-ED89E1D8B34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40E0B14-01FA-4EF1-ADCD-ED89E1D8B34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40E0B14-01FA-4EF1-ADCD-ED89E1D8B34C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {371F8513-4DE9-436E-B14C-3DD174E9F003}
+	EndGlobalSection
+EndGlobal
