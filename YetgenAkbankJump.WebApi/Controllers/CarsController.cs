@@ -18,5 +18,23 @@ namespace YetgenAkbankJump.WebApi.Controllers
             //if the operaction successfull(Ok()) return cars. 
 
         }
+        [HttpGet("{id:guid}")]
+        public IActionResult GetById(Guid id)
+        {
+            var car = CarsContext.LuxuryCars.FirstOrDefault(x => x.Id == id);
+
+            //http codes
+            if (id == Guid.Empty)
+            {
+                return BadRequest("Id cannot be empty!");
+            }
+            if(car is null)
+            {
+                return NotFound("The requested car with the given Id was not found!");
+            }
+
+            return Ok(car);
+
+        }
     }
 }
